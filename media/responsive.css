@@ -224,7 +224,7 @@
     .s3fb-tabs ul {
         flex-direction: column;
         align-items: center;
-        gap: 5vw;
+        gap: 2vw;
     }
     .ftr-btm-left p {
         text-align: center;
