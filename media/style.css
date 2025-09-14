@@ -582,6 +582,10 @@ footer{
 .ftr-box ul li{
     padding: 0.5vw;
 }
+.fb1 ul li {
+    display: flex;
+    gap: 1vw;
+}
 .ftr-box ul li a{
     display: flex;
     align-items: center;
