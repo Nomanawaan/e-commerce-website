@@ -9,7 +9,7 @@ let btntop = document.getElementById("topBtn");
 
 window.onscroll = function() {
     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        btntop.style.display = "block"; // use same variable name
+        btntop.style.display = "block";
     } else {
         btntop.style.display = "none";
     }

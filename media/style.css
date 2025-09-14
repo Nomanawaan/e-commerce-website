@@ -82,6 +82,7 @@ header{
     background-color: var(--secondary-color);
     min-width: 15vw;
     z-index: 1;
+    height: auto;
 }
 .dropdown-content ul {
     margin: 0;
@@ -127,6 +128,11 @@ header{
     font-size: var(--font-navbtn);
     text-decoration: none;
 }
+.login a:hover, 
+.register a:hover, 
+button.dropbtn:hover{
+    color: var(--primary-color);
+}
 
 .btn-whtsap-top-arrow{
     background: red;
@@ -149,7 +155,6 @@ a.whatsappbtn {
     right: 0vw;
     bottom: 23vh;
     text-decoration: none;
-    background: var(--secondary-color);
 }
 i.fa-brands.fa-square-whatsapp {
     font-size: var(--font-mainhead);
