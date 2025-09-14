@@ -149,6 +149,7 @@ a.whatsappbtn {
     right: 0vw;
     bottom: 23vh;
     text-decoration: none;
+    background: var(--secondary-color);
 }
 i.fa-brands.fa-square-whatsapp {
     font-size: var(--font-mainhead);
