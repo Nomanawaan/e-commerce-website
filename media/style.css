@@ -412,7 +412,11 @@ span.carousel-control-prev-icon {
     width: var(--container-full);
     margin-top: 5vw;
     /* background: red; */
-    display: flex;
+    display: none;
+    /* flex-wrap: wrap; */
+}
+.s3fb-product.active {
+    display: flex; 
     flex-wrap: wrap;
     gap: 1.2vw;
 }
@@ -428,9 +432,16 @@ span.carousel-control-prev-icon {
 .product-img{
     width: 100%;
     background: var(--gray-color);
+    /* position: relative; */
+    overflow: hidden; 
 }
 .product-img img{
     width: 100%;
+    transition: transform 0.3s ease;
+}
+.product:hover .product-img img{
+    transform: scale(1.1);
+    
 }
 .product-text{
     padding: 1vw 0;
@@ -482,6 +493,9 @@ h4.price{
 .cart i{
     font-size: var(--font-para);
     color: var(--black-color);
+}
+.cart:hover .cart i{
+    color: var(--white-color);
 }
 .product:hover .cartbtns{
     display: block;
