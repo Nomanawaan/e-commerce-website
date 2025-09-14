@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./media/style.css">
+    <link rel="stylesheet" href="./media/responsive.css">
+</head>
+<body>
+    <!-- container start -->
+    <div id="container">
+
+        <!-- header sec start -->
+        <header>
+            <div id="header-inner">
+
+                <div id="header-left">
+                    
+                    <div class="currency">
+                        <div class="dropdown">
+    
+                            <button class="dropbtn">Currency</button>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li><a href="#"><i class="fa-solid fa-dollar-sign"></i> US Dollar</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-euro-sign"></i> EURO</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-sterling-sign"></i> POUND</a></li>
+                                </ul>
+                            </div>
+                        
+                        </div>        
+                    </div>
+                    
+                    <div class="language">
+                        <div class="dropdown">
+                        
+                        <button class="dropbtn">Language</button>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">URDU</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    </div>
+
+                </div>
+
+                <div id="header-right">
+
+                    <div class="login">
+                        <a href="#">Login</a>
+                    </div>
+                    
+                    <div class="register">
+                        <a href="#">Register</a>
+                    </div>
+                
+                </div>
+
+            </div>
+        </header>
+        <!-- header sec end -->
+
+        <!-- whatsapp button -->
+        <a href="https://wa.me/923440029304" class="whatsappbtn" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+        <!-- whatsapp button -->
+
+        <!-- button top -->
+        <button onclick="topFunction()" id="topBtn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <!-- button top -->        
+
+        <!-- nav sec start -->
+        <nav>
+            <div class="navbar nav-inner">
+                
+                <div class="logo">MyShop</div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
+            </div>
+        </nav>
+        <!-- nav sec end -->
+
+        <!-- hero sec -->
+        <div id="hero-sec">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/home page images/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/home page images/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/home page images/slide3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- hero sec end -->
+
+        <!-- sec 1 start -->
+        <div id="sec-1">
+            <div id="sec-1-inner">
+
+                <div class="sec1-flex-box">
+                    <div class="sec-1-box">
+                        <div class="s1b-img">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <div class="s1b-text">
+                            <p>
+                                Free shipping on order over $99
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec-1-box">
+                        <div class="s1b-img">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                        </div>
+                        <div class="s1b-text">
+                            <p>
+                                30 days money back guarantee
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sec-1-box">
+                        <div class="s1b-img">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <div class="s1b-text">
+                            <p>
+                                Support online 24 hours a day
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- sec 1 end -->
+
+        <!-- sec 2 start -->
+        <div id="sec-2">
+            <div id="sec-2-inner">
+
+                <div class="sec2-top">
+                    <h2>OUR COLLECTIONS</h2>
+                    <div class="line-quarter"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod nesciunt consequatur itaque voluptatem nobis perspiciatis nostrum officia.
+                    </p>
+                </div>
+
+                <div class="sec2-flex-box">
+
+                    <div class="s2-box">
+                        <div class="s2-img">
+                            <img src="./assets/home page images/s2-img 1.jpg" alt="">
+                        </div>
+                        <div class="s2-text">
+                            <p><a href="#">Men Watches</a></p>
+                        </div>
+                    </div>
+
+                    <div class="s2-box">
+                        <div class="s2-img">
+                            <img src="./assets/home page images/s2-img 2.jpg" alt="">
+                        </div>
+                        <div class="s2-text">
+                            <p><a href="#">Women Watches</a></p>
+                        </div>
+                    </div>
+
+                    <div class="s2-box">
+                        <div class="s2-img">
+                            <img src="./assets/home page images/s2-img-3.jpg" alt="">
+                        </div>
+                        <div class="s2-text">
+                            <p><a href="#">Luxury Watches</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="s2-row">
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_1.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_2.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_3.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_1.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_4.png" alt="">
+                    </div>
+                    <div class="img">
+                        <img src="./assets/home page images/s2fb_img_5.png" alt="">
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </div>
+        <!-- sec 2 end -->
+
+        <!-- sec 3 start -->
+        <div id="sec-3">
+            <div id="sec-3-inner">
+
+                <div class="sec2-top">
+                    <h2>OUR COLLECTIONS</h2>
+                    <div class="line-quarter"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod nesciunt consequatur itaque voluptatem nobis perspiciatis nostrum officia itaque voluptatem nobis perspiciatis nostrum officia.
+                    </p>
+                </div>
+
+                <div class="sec-3-flex-box">
+                    <div class="s3fb-tabs">
+                        <ul>
+                            <li><a href="#automatic" >AUTOMATIC</a></li>
+                            <li><a href="#">CASUAL</a></li>
+                            <li><a href="#">CERAMIC</a></li>
+                            <li><a href="#">KEVICONS</a></li>
+                            <li><a href="#">PASTRAMI</a></li>
+                            <li><a href="#">PATHEON</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="s3fb-product" id="automatic">
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>
+
+                        <div class="product product-1">
+                            <div class="product-img">
+                                <img src="./assets/home page images/product1.png" alt="">
+                            </div>
+                            <div class="cartbtns btnflx">
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                                </div>
+                                <div class="cart">
+                                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h4>Ground rounding</h4>
+                                <div class="star-line">
+                                    <span class="line"></span>
+                                    <span class="star">
+                                        ★ ★ ★ ★ ★
+                                    </span>
+                                    <span class="line"></span>
+                                </div>
+                                <h4 class="price">$65.00</h4>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+        <!-- sec 3 end -->
+
+        <!-- sec 4 start -->
+        <div id="sec-4">
+            <div id="sec-4-inner">
+
+                <div class="sec2-top">
+                    <h2>OUR COLLECTIONS</h2>
+                    <div class="line-quarter"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod nesciunt consequatur itaque voluptatem nobis perspiciatis nostrum officia itaque voluptatem nobis perspiciatis nostrum officia.
+                    </p>
+                </div>
+
+                <div class="blog-flex-box">
+
+                    <div class="blogs blog-1">
+                        <div class="heading">
+                            <h2>21</h2>
+                            <span>May</span>
+                        </div>
+                        <h3>enim ad minim veniam justo duo dolores it ea</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam animi illo nulla eos accusantium impedit nam perferendis ipsa possimus, non facere molestias corporis...
+                        </p>
+                        <a href="#">Read more >></a>
+                    </div>
+                    
+                    <div class="blogs blog-2">
+                        <div class="heading">
+                            <h2>21</h2>
+                            <span>May</span>
+                        </div>
+                        <h3>enim ad minim veniam justo duo dolores it ea</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam animi illo nulla eos accusantium impedit nam perferendis ipsa possimus, non facere molestias corporis...
+                        </p>
+                        <a href="#">Read more >></a>
+                    </div>
+
+                    <div class="blogs blog-3">
+                        <div class="heading">
+                            <h2>21</h2>
+                            <span>May</span>
+                        </div>
+                        <h3>enim ad minim veniam justo duo dolores it ea</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam animi illo nulla eos accusantium impedit nam perferendis ipsa possimus, non facere molestias corporis...
+                        </p>
+                        <a href="#">Read more >></a>
+                    </div>
+
+                    <div class="blogs blog-4">
+                        <div class="heading">
+                            <h2>21</h2>
+                            <span>May</span>
+                        </div>
+                        <h3>enim ad minim veniam justo duo dolores it ea</h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam animi illo nulla eos accusantium impedit nam perferendis ipsa possimus, non facere molestias corporis...
+                        </p>
+                        <a href="#">Read more >></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- sec 4 end -->
+
+        <!-- sec 5 start -->
+        <div id="sec-5">
+            <div id="sec-5-inner">
+
+                <div class="follow">
+                    <h4>FOLLOW US BY:</h4>
+                </div>
+
+                <div class="follow-social">
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">TWITTER</a>
+                    <a href="#">GOOGLE</a>
+                    <a href="#">PINTEREST</a>
+                    <a href="#">YOUTUBE</a>
+                    <a href="#">LINKEDIN</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- sec 5 end -->
+
+        <!-- sec 6 start -->
+        <footer>
+            <div class="ftr-inner">
+
+                <div class="ftr-box fb1">
+                    <h4>CONTACT US</h4>
+                    <ul>
+                        <li><a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            <p>58 Rahat Commercial DHA</p>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <p>demo@awan.com</p>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>0213-1234567</p>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Mon - Sun / 9:00AM - 7:30PM</p>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="ftr-box fb2">
+                    <h4>MY ACCOUNT</h4>
+                    <ul>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Gift Certificates</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Specials</a></li>
+                    </ul>
+                </div>
+                <div class="ftr-box fb3">
+                    <h4>INFORMATION</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Warranty And Services</a></li>
+                        <li><a href="#">Support 24/7 page</a></li>
+                    </ul>
+                </div>
+                <div class="ftr-box fb4">
+                    <h4>CUSTOMER SERVICES</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="line-full"></div>
+            
+            <div class="ftr-btm">
+                <div class="ftr-btm-left">
+                    <p>Awan © 2025 Demo Store. Designed and Developed by Noman Awan</p>
+                </div>
+                <div class="ftr-btm-right">
+                    <img src="./assets/home page images/payment-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </footer>
+        <!-- sec 6 end -->
+
+
+
+
+        
+
+
+    </div>
+    <!-- container end -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>

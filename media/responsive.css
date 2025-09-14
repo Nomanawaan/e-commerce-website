@@ -1,0 +1,117 @@
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #333;
+        flex-direction: column;
+        width: 200px;
+        /* padding: 10px; */
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    div#navLinks {
+        z-index: 1;
+        padding: 2vw;
+        background: var(--secondary-color);
+    }
+    .nav-links {
+        gap: 1vw;
+    }
+    .sec1-flex-box {
+        flex-wrap: wrap;
+    }
+    .sec2-flex-box {
+        flex-wrap: wrap;
+    }
+    .s2-box {
+        width: 100%;
+    }
+    .s2-row {
+        flex-wrap: wrap;
+    }
+    .img {
+        width: 100%;
+    }
+    .product-1 {
+        width: 100%;
+    }
+    .blog-flex-box {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 5vw;
+    }
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sec-5-inner {
+        flex-direction: column;
+        gap: 2vw;
+    }
+    .follow-social {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3vw;
+    }
+    .follow-social a {
+        text-decoration: none;
+        padding: 2vw 7vw;
+        border: 1px solid var(--secondary-color);
+        background: var(--secondary-color);
+        color: var(--black-color);
+        font-size: var(--font-btnhead);
+        width: 35vw;
+        display: flex;
+        justify-content: center;
+    }
+    .ftr-inner {
+        flex-wrap: wrap;
+    }
+    .ftr-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ftr-box ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ftr-btm {
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw 0;
+        gap: 2vw;
+    }
+    .s3fb-tabs ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+    .ftr-btm-left p {
+        text-align: center;
+    }
+    button#topBtn {
+        padding: 0.5rem 0.8rem;
+    }
+    .ftr-btm-right img {
+        width: 95vw;
+    }
+    .sec2-top h2 {
+        text-align: center;
+    }
+
+
+
+}
